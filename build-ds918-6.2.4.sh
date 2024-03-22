@@ -28,6 +28,6 @@ cd ..
 
 # 编译 redpill-load
 cd redpill-load
-curl --location "https://raw.githubusercontent.com/hopolcn/redpill-build/master/user_config.DS918+.json" --output user_config.json
+curl --location "https://raw.githubusercontent.com/aoeII/redpill-build/master/user_config.DS918+.json" --output user_config.json
 ./build-loader.sh 'DS918+' '6.2.4-25556'
 cd images && ls
