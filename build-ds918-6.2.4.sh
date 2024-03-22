@@ -11,7 +11,7 @@ git clone https://github.com/RedPill-TTG/redpill-lkm.git
 git clone https://github.com/RedPill-TTG/redpill-load.git
 
 # 下载 群晖 linux 内核
-curl --location "https://sourceforge.net/projects/dsgpl/files/Synology%20NAS%20GPL%20Source/25426branch/apollolake-source/linux-4.4.x.txz/download" --output linux-4.4.x.txz
+curl --location "https://global.synologydownload.com/download/ToolChain/Synology%20NAS%20GPL%20Source/6.2-25556/apollolake/linux-4.4.x.txz" --output linux-4.4.x.txz
 
 # 编译 redpill-lkm
 cd redpill-lkm
